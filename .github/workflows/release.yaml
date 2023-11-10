@@ -45,9 +45,7 @@ jobs:
         release_name: release ${{ github.ref_name }}
 
     - name: Download a Build Artifact
-        uses: actions/download-artifact@v2.1.1
-        with:
-        # Artifact name
+      uses: actions/download-artifact@v2.1.1
+      with:
         name: # optional
-        # Destination path
         path: # optional
